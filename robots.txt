@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.xrk-oray.it.com/sitemap.xml
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
