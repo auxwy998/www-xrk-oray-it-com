@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>用户协议 - 向日葵远程控制</title>
+  <meta name="description" content="向日葵远程控制用户服务协议，详细说明服务使用条款和条件。">
+  <link rel="canonical" href="https://www.xrk-oray.it.com/user-agreement.html">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌻</text></svg>">
+  <style>
+:root {
+  --primary: #F59E23;
+  --accent: #F97316;
+  --bg: #1a0a0a;
+  --bg2: #2d1515;
+  --text: #f5f0eb;
+  --text-muted: #b8a99a;
+  --card-bg: #3a1f1f;
+  --border: #5a3535;
+  --radius: 12px;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.7;
+}
+a { color: var(--primary); text-decoration: none; transition: color .2s; }
+a:hover { color: var(--accent); }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* Nav */
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(26,10,10,.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.nav-brand { font-size: 1.25rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 8px; }
+.nav-brand span { color: var(--text); }
+.nav-links { display: flex; gap: 28px; }
+.nav-links a { color: var(--text-muted); font-size: .9rem; }
+.nav-links a:hover { color: var(--primary); }
+.nav-cta { background: linear-gradient(135deg, var(--primary), var(--accent)); color: #1a0a0a !important; font-weight: 600; padding: 8px 22px; border-radius: 999px; font-size: .9rem; }
+
+/* Footer */
+.footer { background: rgba(26,10,10,.95); border-top: 1px solid var(--border); padding: 40px 0; }
+.footer-inner { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; }
+.footer-brand { font-size: 1.1rem; font-weight: 700; color: var(--primary); }
+.footer-links { display: flex; gap: 20px; flex-wrap: wrap; }
+.footer-links a { color: var(--text-muted); font-size: .85rem; }
+.footer-links a:hover { color: var(--primary); }
+.footer-legal { display: flex; gap: 20px; }
+.footer-legal a { color: var(--text-muted); font-size: .82rem; }
+.footer-legal a:hover { color: var(--primary); }
+.footer-copy { color: var(--text-muted); font-size: .8rem; width: 100%; text-align: center; margin-top: 16px; }
+
+/* Legal content */
+h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 16px; background: linear-gradient(135deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.legal-content {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 40px;
+  margin-top: 32px;
+}
+.legal-content h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 32px 0 12px;
+  color: var(--primary);
+}
+.legal-content h2:first-child { margin-top: 0; }
+.legal-content p, .legal-content li {
+  font-size: .95rem;
+  color: var(--text-muted);
+  line-height: 1.9;
+  margin-bottom: 10px;
+}
+.legal-content ul { padding-left: 20px; margin-bottom: 16px; }
+.legal-content ul li { list-style: disc; }
+.update-date {
+  font-size: .9rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  padding: 12px 20px;
+  background: rgba(245,158,35,.08);
+  border: 1px solid rgba(245,158,35,.15);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+@media(max-width:768px) {
+  .nav-links { display: none; }
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-links, .footer-legal { justify-content: center; }
+  .legal-content { padding: 24px; }
+}
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-brand">🌻 <span>向日葵远程控制</span></a>
+      <div class="nav-links">
+        <a href="/">首页</a>
+      </div>
+      <a href="/" class="nav-cta">返回首页</a>
+    </div>
+  </nav>
+  
+  <main style="padding: 120px 0 80px;">
+    <div class="container">
+      <h1>用户协议</h1>
+      <p class="update-date">更新日期：2024年1月1日 | 生效日期：2024年1月1日</p>
+      
+      <div class="legal-content">
+        <h2>一、服务说明</h2>
+        <p>向日葵远程控制（以下简称"本服务"）是由上海贝锐信息科技股份有限公司（以下简称"贝锐科技"、"我们"或"公司"）开发并运营的远程桌面控制软件。本服务允许用户通过互联网远程访问和控制其他计算机或移动设备，实现远程办公、技术支持、设备管理等目的。</p>
+        <p>请您在使用本服务前，仔细阅读本协议的所有条款。您在注册、登录或使用本服务时，即表示您已阅读、理解并同意接受本协议的全部内容。如您不同意本协议的任何内容，请立即停止使用本服务。</p>
+        
+        <h2>二、账户注册与使用</h2>
+        <p><strong>1. 账户注册</strong></p>
+        <p>您可以使用手机号码、电子邮箱或第三方账号（微信、QQ）注册本服务账户。您承诺提供真实、准确、完整的注册信息，并及时更新。如信息发生变化，请及时修改。</p>
+        <p><strong>2. 账户安全</strong></p>
+        <ul>
+          <li>您应妥善保管账户信息和密码，不得向他人透露</li>
+          <li>每次使用完毕后请退出登录，尤其是在公共设备上</li>
+          <li>如发现账户被盗用，请立即联系我们</li>
+          <li>我们对因您个人保管不当造成的损失不承担责任</li>
+        </ul>
+        <p><strong>3. 账户注销</strong></p>
+        <p>您有权随时注销账户。注销后，我们将按照法律法规要求保留相关数据，并在保留期限届满后删除您的个人信息。</p>
+        
+        <h2>三、用户行为规范</h2>
+        <p>您同意并承诺在使用本服务时遵守以下规范：</p>
+        <p><strong>允许的行为：</strong></p>
+        <ul>
+          <li>远程访问自己拥有或被授权访问的设备</li>
+          <li>提供或接受合法的远程技术支持服务</li>
+          <li>进行远程办公和远程教学活动</li>
+          <li>传输与上述目的相关的合法文件</li>
+        </ul>
+        <p><strong>禁止的行为：</strong></p>
+        <ul>
+          <li>未经授权访问他人计算机或移动设备</li>
+          <li>绕过安全机制或破解他人账户密码</li>
+          <li>传输含有病毒、木马或其他恶意代码的文件</li>
+          <li>进行任何形式的网络攻击、入侵或破坏</li>
+          <li>侵犯他人知识产权、隐私权或其他合法权益</li>
+          <li>进行非法赌博、色情、诈骗等违法活动</li>
+          <li>发送垃圾邮件、 spam 或进行大规模商业推广</li>
+          <li>绕过流量限制或使用未经授权的第三方客户端</li>
+          <li>将本服务用于任何军事、政治或恐怖主义目的</li>
+        </ul>
+        
+        <h2>四、知识产权声明</h2>
+        <p><strong>我们的权利：</strong></p>
+        <p>本服务及其包含的所有内容（包括但不限于软件界面、图标、图形、代码、文字、音频、视频）的知识产权归贝锐科技所有。未经书面许可，任何人不得复制、修改、分发、反向工程或利用本服务。</p>
+        <p><strong>您的内容：</strong></p>
+        <p>您在使用本服务过程中传输的文件、数据等内容（以下简称"用户内容"）的知识产权归您所有。我们仅在提供服务所必需的范围内使用您的内容，且不会将您的内容用于其他目的。</p>
+        <p><strong>商标：</strong></p>
+        <p>"向日葵"、"Oray"、"Sunlogin"及相关图形标识是贝锐科技的注册商标。未经授权，不得使用。</p>
+        
+        <h2>五、服务变更与中断</h2>
+        <p><strong>服务调整：</strong></p>
+        <p>我们有权根据业务发展需要调整本服务的内容、功能、定价和付费模式。如有重大变更，我们将提前通知您。</p>
+        <p><strong>服务中断：</strong></p>
+        <p>因以下原因导致服务中断，我们不承担责任：</p>
+        <ul>
+          <li>定期或紧急的系统维护、升级</li>
+          <li>不可抗力因素（自然灾害、战争、骚乱、政府行为等）</li>
+          <li>第三方服务提供商的原因</li>
+          <li>DDoS攻击、黑客攻击等恶意行为</li>
+          <li>您的设备、网络或电力问题</li>
+        </ul>
+        <p><strong>服务终止：</strong></p>
+        <p>我们保留随时终止本服务的权利。如因公司战略调整决定终止服务，我们将提前90天通知您，并提供数据导出方案。</p>
+        
+        <h2>六、免责声明</h2>
+        <p><strong>使用风险：</strong></p>
+        <p>您理解并同意，使用本服务存在一定风险，包括但不限于数据泄露、传输延迟、操作失误等。您应自行评估风险并采取适当的安全措施。</p>
+        <p><strong>远程控制内容：</strong></p>
+        <p>我们对您在远程控制过程中传输、访问或处理的任何内容不承担责任。您应确保相关行为已获得合法授权。</p>
+        <p><strong>第三方服务：</strong></p>
+        <p>本服务可能包含指向第三方网站的链接。我们不对第三方网站的内容、产品或服务负责。</p>
+        <p><strong>不作保证：</strong></p>
+        <p>本服务按"现状"提供，不提供任何明示或暗示的保证。我们不保证服务完全无错误、不中断或完全安全。</p>
+        
+        <h2>七、赔偿与责任限制</h2>
+        <p><strong>您的赔偿：</strong></p>
+        <p>如因您违反本协议或违法使用本服务导致第三方索赔、诉讼或处罚，您同意赔偿我们因此遭受的损失和费用。</p>
+        <p><strong>我们的责任：</strong></p>
+        <p>在法律允许的最大范围内，我们对您使用本服务产生的任何间接、附带、特殊或惩罚性损害不承担责任。我们的总赔偿责任不超过您在投诉发生前12个月内支付的服务费用。</p>
+        
+        <h2>八、协议修改</h2>
+        <p>我们有权随时修改本协议。修改后的协议将通过以下方式通知您：</p>
+        <ul>
+          <li>在本网站显著位置发布</li>
+          <li>发送至您的注册邮箱</li>
+          <li>软件内弹窗提示</li>
+        </ul>
+        <p>修改内容发布后，如果您继续使用本服务，视为您接受修改后的协议。如您不同意修改，有权停止使用本服务。</p>
+        
+        <h2>九、法律适用与争议解决</h2>
+        <p><strong>适用法律：</strong></p>
+        <p>本协议的订立、执行和解释均适用中华人民共和国法律。</p>
+        <p><strong>争议解决：</strong></p>
+        <p>因本协议引起的任何争议，双方应首先友好协商解决。协商不成的，任何一方可向上海市浦东新区人民法院提起诉讼。</p>
+        <p><strong>可分割性：</strong></p>
+        <p>如本协议的任何条款被认定为无效或不可执行，该条款应被修改至最小必要范围，其余条款继续有效。</p>
+        
+        <h2>十、联系方式</h2>
+        <p>如您对本协议有任何疑问，请通过以下方式联系我们：</p>
+        <ul>
+          <li>客服热线：400-870-9889（工作日 9:00-18:00）</li>
+          <li>电子邮箱：support@oray.com</li>
+          <li>官方网站：www.oray.com</li>
+          <li>公司地址：上海市浦东新区碧波路690号张江微电子港7号楼</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">🌻 向日葵远程控制</div>
+      <div class="footer-links">
+        <a href="/#scenarios">使用场景</a>
+        <a href="/#features">核心功能</a>
+        <a href="/#tutorial">使用教程</a>
+        <a href="/#specs">技术规格</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/">官网</a>
+      </div>
+      <div class="footer-legal">
+        <a href="/privacy-policy.html">隐私政策</a>
+        <a href="/user-agreement.html">用户协议</a>
+        <a href="/cookie-policy.html">Cookie政策</a>
+      </div>
+      <div class="footer-copy">© 2025 贝锐科技(Oray) 版权所有</div>
+    </div>
+  </footer>
+</body>
+</html>
